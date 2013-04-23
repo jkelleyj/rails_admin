@@ -5,7 +5,7 @@ require 'rails_admin/version'
 
 Gem::Specification.new do |spec|
   # If you add a dependency, please maintain alphabetical order
-  spec.add_dependency 'bootstrap-sass', git: "git://github.com/thomas-mcdonald/bootstrap-sass.git", branch: "3"
+  spec.add_dependency 'bootstrap-sass'
   spec.add_dependency 'builder', '~> 3.0'
   spec.add_dependency 'coffee-rails', '~> 3.1'
   spec.add_dependency 'font-awesome-sass-rails', ['~> 3.0', '>= 3.0.0.1']
